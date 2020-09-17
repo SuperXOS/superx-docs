@@ -1,0 +1,19 @@
+{
+  "name": "superx-docs",
+  "version": "0.0.1",
+  "description": "Documentation for SuperXOS",
+  "main": "index.js",
+  "authors": {
+    "name": "SagnikS",
+    "email": "sagnik@sagnik.me"
+  },
+  "repository": "git@github.com:SuperXOS/superx-docs.git/superx-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
