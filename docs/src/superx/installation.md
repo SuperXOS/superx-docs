@@ -2,9 +2,7 @@
 
 ## Overview
 
-The SuperX OS is made to make Linux computing more simple and easy for general users. It is easy to use, easy to install and includes everything you need
-
-to run your organisation, school, home or enterprise. It’s also open source, secure, accessible and free to download.
+The SuperX OS is made to make Linux computing more simple and easy for general users. It is easy to use, easy to install and includes everything you need to run your organisation, school, home or enterprise. It’s also open source, secure, accessible and free to download.
 
 [![img](https://wiki.superxos.com/images/a/ac/Superx_desktop.jpg)](https://wiki.superxos.com/File:Superx_desktop.jpg)
 
@@ -29,37 +27,25 @@ We also have an article on creating [a bootable usb](https://wiki.superxos.com/C
 
 ## Boot from USB flash drive
 
-Most computers will boot from USB automatically. Simply insert the USB flash drive and either power on your computer or restart it. You should see the 
+Most computers will boot from USB automatically. Simply insert the USB flash drive and either power on your computer or restart it. You should see the same welcome window , prompting you to choose your language and either install or try the SuperX desktop.
 
-same welcome window , prompting you to choose your language and either install or try the SuperX desktop.
+If your computer doesn’t automatically boot from USB, try holding F12 when your computer first starts. With most machines, this will allow you to select  the USB device from a system-specific boot menu. 
 
-If your computer doesn’t automatically boot from USB, try holding F12 when your computer first starts. With most machines, this will allow you to select  
-
-the USB device from a system-specific boot menu. 
-
-F12 is the most common key for bringing up your system’s boot menu, but Escape, F2 and F10 are common alternatives. If you’re unsure, look for a brief 
-
-message when your system starts - this will often inform you of which key to press to bring up the boot menu.
+F12 is the most common key for bringing up your system’s boot menu, but Escape, F2 and F10 are common alternatives. If you’re unsure, look for a brief message when your system starts - this will often inform you of which key to press to bring up the boot menu.
 
 ## Installation Wizard
 
 ### Install or try screen
 
-Once the system is booted using the USB Or disk you can see the following screen presented before you with options including “Try SuperX” and 
-
-“Install SuperX” as shown in the image below,
+Once the system is booted using the USB Or disk you can see the following screen presented before you with options including “Try SuperX” and “Install SuperX” as shown in the image below,
 
 [![img](https://wiki.superxos.com/images/thumb/f/f9/Try_or_install.png/700px-Try_or_install.png)](https://wiki.superxos.com/File:Try_or_install.png)
 
-Even though when you click “Try SuperX” you can have a sneak peek into the SuperX without installing it in your system, our goal here is to install 
-
-SuperX in your system. So click “Install SuperX ” to continue with the installation process.
+Even though when you click “Try SuperX” you can have a sneak peek into the SuperX without installing it in your system, our goal here is to install SuperX in your system. So click “Install SuperX ” to continue with the installation process.
 
 ### Choose your Keyboard layout
 
-Choose your favourite keyboard layout and click “Continue”. By default English (US) keyboard is selected and if you want to change, you can change 
-
-in this window and click “Continue”,
+Choose your favourite keyboard layout and click “Continue”. By default English (US) keyboard is selected and if you want to change, you can change in this window and click “Continue”,
 
 [![img](https://wiki.superxos.com/images/thumb/3/39/Language.png/800px-Language.png)](https://wiki.superxos.com/File:Language.png)
 
@@ -145,9 +131,7 @@ Once the installation is completed, you will be prompted with the popup as shown
 ### Login to Your SuperX
 
 
- Once your system has been rebooted after the installation then you will get the beneath login screen, enter the User name and password that you have set 
-
-during installation.
+Once your system has been rebooted after the installation then you will get the beneath login screen, enter the User name and password that you have set during installation.
 
 [![img](https://wiki.superxos.com/images/thumb/4/4e/Login_screen.png/800px-Login_screen.png)](https://wiki.superxos.com/File:Login_screen.png)
 
