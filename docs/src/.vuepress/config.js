@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'SuperX Documentation',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,26 +34,47 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Documentation',
+        link: '/superx/overview.md',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Forums',
+        link: '#'
+      },
+      { 
+        text: 'Discord',
+        link: '#'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Telegram',
+        link: '#'
+      },
+      {
+        text: 'IRC',
+        link: '#'
+      },
+      {
+        text: 'Download SuperX',
+        link: '#'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/': [
         {
-          title: 'Guide',
-          collapsable: false,
+          title: 'Getting Started',
+          collapsable: true,
           children: [
-            '',
-            'using-vue',
+           '/superx/overview.md',
+           '/superx/community.md',
+           '/superx/download.md',
+           '/superx/installation.md',
+          ]
+        },
+        {
+          title: 'Software',
+          collapsable: true,
+          children: [
+            ['/lorem/page.md','link1'],
           ]
         }
       ],
@@ -66,5 +87,21 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    ['@vuepress/google-analytics', {
+        ga: 'UA-123456789-0'
+    },],
+    ['@vuepress/search', {
+        searchMaxSuggestions: 10
+    }],
+    ['vuepress-plugin-container', {
+        type: 'warning',
+    }],
+    ['vuepress-plugin-container', {
+         type: 'tip',
+    }],
+    ['vuepress-plugin-container', {
+        type: 'danger',
+    }],
+
   ]
 }
