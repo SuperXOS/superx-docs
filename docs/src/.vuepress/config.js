@@ -69,13 +69,6 @@ module.exports = {
            '/superx/download.md',
            '/superx/installation.md',
           ]
-        },
-        {
-          title: 'Software',
-          collapsable: true,
-          children: [
-            ['/lorem/page.md','link1'],
-          ]
         }
       ],
     }
