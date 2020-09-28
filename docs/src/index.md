@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://superxos.com/wp-content/uploads/2019/03/SuperX-final.png
-tagline: Wlecome to the SuperX Documentation and Help Wiki!
+tagline: Welcome to the SuperX Documentation and Help Wiki!
 actionText: Quick Start →
 actionLink: /superx/overview.md
 features:
