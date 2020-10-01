@@ -39,23 +39,23 @@ module.exports = {
       },
       {
         text: 'Forums',
-        link: '#'
+        link: 'https://forum.superxos.com/'
       },
       { 
         text: 'Discord',
-        link: '#'
+        link: 'https://discord.gg/YgJmBrc'
       },
       {
         text: 'Telegram',
-        link: '#'
+        link: 'https://t.me/joinchat/JsJHIlVSW9NnMSRyXOTu2A'
       },
       {
         text: 'IRC',
-        link: '#'
+        link: 'https://superxos.com/irc/'
       },
       {
         text: 'Download SuperX',
-        link: '#'
+        link: 'https://superxos.com/download/'
       }
     ],
     sidebar: {
